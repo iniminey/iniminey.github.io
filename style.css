@@ -26,13 +26,13 @@ body {
   position: absolute;
   font-size: 80px;
   top: 17px;
-  left: 40px;
+  left: 30px;
   font-family: "EurostileBold";
   text-transform: uppercase;
 }
 
 .headertext span {
-  color: hotpink;
+  color: salmon;
   }
 
 section {
@@ -70,6 +70,6 @@ p {
   position: absolute;
   font-size: 15px;
   bottom: 25px;
-  right: 40px;
+  right: 30px;
   font-family: "Eurostile";
 }
