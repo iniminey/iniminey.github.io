@@ -40,7 +40,7 @@ section {
         }
 
 article {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 8px;
