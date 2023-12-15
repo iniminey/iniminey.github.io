@@ -28,7 +28,12 @@ body {
   top: 17px;
   left: 40px;
   font-family: "EurostileBold";
+  text-transform: uppercase;
 }
+
+.headertext span {
+  color: hotpink;
+  }
 
 section {
             margin-top: 175px;
