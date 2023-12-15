@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(https://i.imgur.com/oMbVnXV.jpeg) no-repeat center fixed;
+  background: url(images/mainbg.jpg) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -21,8 +21,8 @@ body {
 .headertext {
   position: absolute;
   font-size: 80px;
-  top: 8px;
-  left: 50px;
+  top: 17px;
+  left: 40px;
   font-family: "Eurostile";
 }
 
@@ -50,7 +50,7 @@ p {
 
 .footer {
   background-color: white;
-  height: 80px;
+  height: 70px;
   width: 100%;
   position: absolute;
   bottom: 0;
