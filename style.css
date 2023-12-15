@@ -8,8 +8,13 @@
 	src: url(fonts/EurostileBold.ttf);
 }
 
+@font-face {
+	font-family: "TriplexSerifLight";
+	src: url(fonts/TriplexSerifLight.otf);
+}
+
 body {
-  background: url(images/mainbg.jpg) no-repeat center fixed;
+  background: url(https://iniminey.github.io/images/mainbg.jpg) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -35,25 +40,36 @@ body {
   color: salmon;
   }
 
+.pages {
+  position: absolute;
+  column-count: 5;
+  column-gap: 40px;
+  font-size: 15px;
+  top: 40px;
+  left: 425px;
+  font-family: "TriplexSerifLight";
+}
+
 section {
             margin-top: 175px;
         }
 
 article {
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
+            background: white;
             padding: 20px;
             margin-bottom: 20px;
-            border-radius: 8px;
             width: 400px;
+  border-style: solid;
+  border-width: 6px;
         }
 
 h2 {
-            color: orange;
+            color: rgba(0, 188, 212, 1);
   font-family: "Eurostile";
         }
 
 p {
-            color: white;
+            color: black;
   font-family: "Eurostile";
         }
 
