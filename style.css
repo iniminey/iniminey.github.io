@@ -3,6 +3,11 @@
 	src: url(fonts/Eurostile.ttf);
 }
 
+@font-face {
+	font-family: "EurostileBold";
+	src: url(fonts/EurostileBold.ttf);
+}
+
 body {
   background: url(images/mainbg.jpg) no-repeat center fixed;
   background-size: cover;
@@ -22,8 +27,7 @@ body {
   font-size: 80px;
   top: 17px;
   left: 40px;
-  font-family: "Eurostile";
-  font-weight: bold;
+  font-family: "EurostileBold";
 }
 
 section {
