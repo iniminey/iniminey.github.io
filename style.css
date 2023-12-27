@@ -79,6 +79,7 @@ section {
 
 section:first-child {
 	flex: 1.5;
+	order: 1;
   font-size: 80px;
 }
 
@@ -86,7 +87,9 @@ section:nth-child(2) {
 	flex: 1.7;
   justify-content: space-around;
   align-items: center;
+	order: 3;
 }
+
 
 section:nth-child(2) a {
 	color: black;
@@ -95,4 +98,5 @@ section:nth-child(2) a {
 
 section:last-child {
 	flex: 1.5;
+	order: 2;
 }
