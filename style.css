@@ -4,29 +4,26 @@
 }
 
 @font-face {
-	font-family: "EurostileBold";
-	src: url(fonts/EurostileBold.ttf);
-}
-
-@font-face {
 	font-family: "TriplexSerifLight";
 	src: url(fonts/TriplexSerifLight.otf);
 }
 
+*, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box; 
+  }
+
 body {
-	margin: 0;
 	display: flex;
 	flex-direction: column;
 }
 
 header {
 	width: 100vw;
-	box-sizing: border-box;
   display: flex;
 	justify-content: flex-start;
   text-transform: uppercase;
-	font-family: "EurostileBold";
-	font-weight: bold;
 }
 
 header span {
@@ -37,10 +34,11 @@ header span {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  font-style: "Eurostile";
 }
 
 .banner img {
-  border: 5vw solid;
+  border: 3vw solid;
 }
 
 main {
@@ -48,7 +46,6 @@ main {
   margin: 75px 0 75px 0;
   gap: 75px;
   flex-grow: 1;
-	box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,15 +54,14 @@ main {
 
 p {
   margin: 0 140px 0 140px;
-  width: 200px;
+  width: 300px;
   padding: 35px;
   font-size: 20px;
   background-color: violet;
   display: flex;
-  flex-direction: column;
+	flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-style: Arial;
 }
 
 p span {
@@ -80,10 +76,12 @@ p img {
 }
 
 footer {
-	width: 100vw;
-	height: 15vh;
-	background-color: orchid;
-	box-sizing: border-box;
+  width: 100vw;
+  padding: 25px;
+  background-color: orchid;
+  display: flex;
+  justify-content: flex-end;
+  font-style: "Eurostile";
 }
 
 section {
@@ -98,12 +96,14 @@ section {
 section:first-child {
 	flex: 1.5;
   font-size: 80px;
+  order: 1;
 }
 
 section:nth-child(2) {
 	flex: 1.7;
   justify-content: space-around;
   align-items: center;
+  order: 3;
 }
 
 section:nth-child(2) a {
@@ -113,4 +113,5 @@ section:nth-child(2) a {
 
 section:last-child {
 	flex: 1.5;
+  order: 2;
 }
