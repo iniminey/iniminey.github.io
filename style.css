@@ -1,4 +1,4 @@
-​body {
+body {
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -22,27 +22,18 @@ header span {
   width: 100vw;
 }
 
-.banner img {
-  border: 5vw solid;
-}
-
 main {
 	width: 100vw;
-  margin: 75px 0 75px 0;
-  gap: 75px;
-  flex-grow: 1;
 	box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-	overflow: hidden;
 }
 
 p {
   margin: 0 140px 0 140px;
   width: 200px;
-  padding: 35px;
   font-size: 20px;
   background-color: violet;
   display: flex;
@@ -79,14 +70,14 @@ section {
 }
 
 section:first-child {
-	flex: 1.5;
   font-size: 80px;
+	order: 1;
 }
 
 section:nth-child(2) {
-	flex: 1.7;
   justify-content: space-around;
   align-items: center;
+	order: 3;
 }
 
 section:nth-child(2) a {
@@ -95,5 +86,5 @@ section:nth-child(2) a {
 }
 
 section:last-child {
-	flex: 1.5;
+order: 2;
 }
