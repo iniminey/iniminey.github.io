@@ -1,6 +1,6 @@
 @font-face {
-	font-family: "Eurostile";
-	src: url(fonts/Eurostile.ttf);
+	font-family: "EurostileBold";
+	src: url(fonts/EurostileBold.ttf);
 }
 
 *, *::before, *::after{
@@ -31,7 +31,7 @@ header span {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  font-family: "Eurostile";
+  font-family: "EurostileBold";
 }
 
 .banner img {
