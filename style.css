@@ -66,6 +66,7 @@ footer {
 	height: 15vh;
 	background-color: orchid;
 	box-sizing: border-box;
+	justify-content: flex-start;
 }
 
 section {
