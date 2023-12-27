@@ -7,7 +7,7 @@
      margin: 0;
      padding: 0;
      box-sizing: border-box; 
-     overflow: auto;
+     overflow-x: hidden;
   }
 
 body {
@@ -20,6 +20,7 @@ header {
   display: flex;
   justify-content: flex-start;
   text-transform: uppercase;
+  font-family: "Eurostile";
 }
 
 header span {
