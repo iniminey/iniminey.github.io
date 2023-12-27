@@ -89,7 +89,6 @@ section {
   align-items: center;
   flex-wrap: wrap;
   background-color: orchid;
-  padding: 20px;
 }
 
 section:first-child {
