@@ -22,12 +22,8 @@ header span {
   width: 100vw;
 }
 
-.banner img {
-  border: 5vw solid;
-}
-
 main {
-	width: 100vw;
+  width: 100vw;
   margin: 75px 0 75px 0;
   gap: 75px;
   flex-grow: 1;
