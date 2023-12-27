@@ -3,11 +3,6 @@
 	src: url(fonts/Eurostile.ttf);
 }
 
-@font-face {
-	font-family: "TriplexSerifLight";
-	src: url(fonts/TriplexSerifLight.otf);
-}
-
 *, *::before, *::after{
      margin: 0;
      padding: 0;
@@ -21,9 +16,9 @@ body {
 }
 
 header {
-	width: 100vw;
+  width: 100vw;
   display: flex;
-	justify-content: flex-start;
+  justify-content: flex-start;
   text-transform: uppercase;
 }
 
@@ -43,7 +38,7 @@ header span {
 }
 
 main {
-	width: 100vw;
+  width: 100vw;
   margin: 75px 0 75px 0;
   gap: 75px;
   flex-grow: 1;
@@ -60,9 +55,10 @@ p {
   font-size: 20px;
   background-color: violet;
   display: flex;
-	flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: Arial;
 }
 
 p span {
