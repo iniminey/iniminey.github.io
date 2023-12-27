@@ -16,16 +16,6 @@ header span {
   color: teal;
   }
 
-.banner {
-  display: flex;
-  flex-direction: column;
-}
-
-.banner img {
-  border: 5vw solid;
-  width: 100vw;
-}
-
 main {
 	width: 100vw;
   margin: 75px 0 75px 0;
